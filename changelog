@@ -1,0 +1,83 @@
+[FUTURE ADDITIONS] - books, wands, bows, jewelry
+[FUTURE FIXES] - 
+
+[CHANGELOG]:
+
+v1.5.5:
+- Added better prefix generation and more prefix possibilities
+
+v1.5.4:
+- Fixed a dozen input bugs
+
+v1.5.3:
+- Added potions
+
+v1.5.2:
+- Added more item prefixes
+
+v1.5.1:
+- Tweaked item deletion and renaming error displays
+
+v1.5 [MAJOR UPDATE]:
+- Added spell scrolls
+- Added item deletion functionality
+
+v1.4.4:
+- Added prefix options for weapon names
+
+v1.4.3:
+- Fixed a damage generation bug
+
+v1.4.2:
+- Fixed an item deletion/renaming bug
+
+v1.4.1:
+- Fixed a minor item renaming bug
+
+v1.4 [MAJOR UPDATE]:
+- Revamped the main loop and reorganized inputs
+- Added ability to delete and rename previously generated items
+
+v1.3.1:
+- Fixed a few input bugs
+
+v1.3 [MAJOR UPDATE]:
+- Changed past generation display
+- Added weapon materials and more content possibilities
+
+v1.2.4:
+- Tweaked stat probability
+- Fixed rune generation
+
+v1.2.3:
+- Tweaked item generation prompts
+
+v1.2.2:
+- Tweaked rune generation
+- Fixed function redundancies
+
+v1.2.1:
+- Added ability to add custom names to items
+
+v1.2 [MAJOR UPDATE]:
+- Fixed many redundancies
+- Used dictionaries to organize data better
+- Increased readability
+
+v1.1.1:
+- Added armors with materials and runes
+
+v1.1 [MAJOR UPDATE]:
+- Renamed to Loot Generator
+- Fixed up some cluttered code
+- Paved the way for other loot types
+
+v1.0.2:
+- Tweaked rune and stat generation
+
+v1.0.1:
+- Added stats to generated weapons
+
+v1.0 [INITIAL RELEASE]:
+- Added weapons, rarities, runes, damage types + bonuses
+- Added a history of generated loot
