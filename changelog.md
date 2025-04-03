@@ -1,5 +1,12 @@
 ## Loot Generator // CHANGELOG
 
+**v1.5.7**
+- Disabled keyboard inputs when printing
+- Spamming is more controlled now
+
+**v1.5.6**
+- Added lore generation
+
 **v1.5.5**
 - Added better prefix generation and more prefix possibilities
 
