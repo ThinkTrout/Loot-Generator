@@ -5,7 +5,7 @@ potion = {
     "Mana": [BLUE, "Restores mana", 'Instant'],
     "Strength": [CYAN, "Increase your strength",5],
     "Goblin’s Brew": [DARK_GREEN,"Enhances physical agility and grants night vision but causes minor hallucinations", 10],
-    "Invisibility": [FAINT, "Become invisible to the naked eye",7],
+    "Invisibility": [GRAY, "Become invisible to the naked eye",7],
     "Beast's Essence": [PURPLE, "Temporarily transforms the drinker into a powerful, feral beast with enhanced senses and strength",3],
 }
 
@@ -16,7 +16,7 @@ spell = {
     "Ethereal Grasp": [PURPLE, 'Grab objects with a magic hand',13],
     "Mage Bullet": [YELLOW, 'Fire a bullet of pure energy', 48],
     "Allspeak": [CYAN, 'Understand any language for a short time', 52],
-    "Tainted Horror": [FAINT, 'Create a fear that spreads through minds like a virus',80],
+    "Tainted Horror": [GRAY, 'Create a fear that spreads through minds like a virus',80],
     "Bloodhex": [RED, 'Any wound that bleeds will bleed forever',32],
     "Dragon's Breath": [RED, 'Unleash a powerful strand of flames',64],
 }
@@ -95,7 +95,7 @@ stat = {
     "Magic resistance": [BLUE],
     "Stamina regen": [PURPLE],
     "Evasion": [YELLOW],
-    "Armor penetration": [FAINT],
+    "Armor penetration": [GRAY],
     "Lifesteal": [RED],
     "Movement speed": [YELLOW],
 }
@@ -113,10 +113,10 @@ dmgType = {
 
 weaponRune = {
     'Dread': [PURPLE,"Inflicts terrible fear upon enemies"],
-    'Paralysis': [FAINT,"Inflicts sudden paralysis upon enemies"],
+    'Paralysis': [GRAY,"Inflicts sudden paralysis upon enemies"],
     'Lifesteal': [RED,"Heals the user for damage dealt to enemies"],
     'Rage': [RED,"Multiplies damage dealt to enemies with each hit"],
-    'Shattering': [FAINT,"Increases chance to break enemy armor"],
+    'Shattering': [GRAY,"Increases chance to break enemy armor"],
     'Berserk': [PURPLE,"Increases attack speed by 2x after a critical hit"],
     'Blinding Light': [YELLOW,"Emits a flash of light on hit, blinding the enemy"],
     'Knowledge': [BLUE,"Increases mana for damage dealt to enemies"],
@@ -157,16 +157,17 @@ armorMaterial = [
     'Iron',
     'Steel',
     'Dragon Scale',
+    'Glass'
 ]
 
 armorRune = {
     'Protection': [RED,'Reduces all damage taken'],
     'Aegis': [BLUE,'Generates a magic shield when health drops too low'],
-    'Resistance': [FAINT,'Significantly reduces knockback from hits'],
+    'Resistance': [GRAY,'Significantly reduces knockback from hits'],
     'Permanence': [YELLOW,'Greatly increases armor durability'],
     'Warding': [PURPLE,'Increases chances to negate magic effects'],
     'Absorption': [BLUE,'Absorbs a portion of magic damage taken and converts to mana'],
-    'Repelling': [FAINT,'Knocks back attackers when taking hits'],
+    'Repelling': [GRAY,'Knocks back attackers when taking hits'],
 }
 
 # ---------------------------
@@ -217,18 +218,95 @@ people = [
 ]
 
 
-act = ['Stolen', 'Picked up', 'Looted', 'Acquired']
+verb = ['Stolen', 
+       'Picked up', 
+       'Looted', 
+       'Acquired', 
+       'Found', 
+       'Discovered']
 
-container = ['collection', 'stockpile', 'cache', 'chest', 'hoard', 'stash', 'corpse', 'secret safe', 'secret chest', 'hidden safe', 'hidden chest', 'hidden stash', 'secret stash', 'barrel','bag']
+container = [
+    'collection', 
+    'stockpile', 
+    'cache', 
+    'chest', 
+    'hoard', 
+    'stash', 
+    'corpse', 
+    'secret safe', 
+    'secret chest', 
+    'hidden safe', 
+    'hidden chest', 
+    'hidden stash', 
+    'secret stash', 
+    'barrel',
+    'bag']
 
-building = ['manor', 'inn', 'house', 'tavern', 'bandit hideout', 'store', 'tower', 'crypt', 'keep', 'dungeon', 'castle', 'mansion', 'hut', 'camp', 'outpost', 'fortress', 'prison']
+building = [
+    'manor', 
+    'inn', 
+    'house', 
+    'tavern', 
+    'bandit hideout', 
+    'store', 
+    'tower', 
+    'crypt', 
+    'keep', 
+    'dungeon', 
+    'castle', 
+    'mansion', 
+    'hut', 
+    'camp', 
+    'outpost', 
+    'fortress', 
+    'prison'
+]
 
-trait = ['old', 'kind', 'ruthless', 'mad', 'disgraced', 'haughty', 'wanted', 'former', 'exalted', 'revered', 'hated', 'despised', 'infamous', 'famous', 'notorious', 'evil','corrupt','graceful','wise']
+trait = [
+    'old', 
+    'kind', 
+    'ruthless', 
+    'mad', 
+    'disgraced', 
+    'haughty', 
+    'wanted', 
+    'former', 
+    'exalted', 
+    'revered', 
+    'hated', 
+    'despised', 
+    'infamous', 
+    'famous', 
+    'notorious', 
+    'evil',
+    'corrupt',
+    'graceful',
+    'wise']
 
-buildingAdjective = ['abandoned', 'dirty', 'filthy', 'rundown', 'old', 'empty', 'remote', 'faraway', 'overgrown', 'deserted']
+adjective = [
+    'abandoned', 
+    'dirty', 
+    'filthy', 
+    'rundown', 
+    'old', 
+    'empty', 
+    'remote', 
+    'faraway', 
+    'overgrown', 
+    'deserted']
 
-place = ['village on a hill', 'seaside village', 'grand city', 'small town', 'small village', 'small city', 'coastal city', 'forest', 'mountain', 'desert', 'swamp', 'cave', 'ruin', 'ruins']
-
-city = ['Imperius', 'Vellichor', 'Providence', 'Gregarious', 'Saccharine']
-
-lore = ['kill', 'slay', 'take down', 'murder', 'assassinate']
+place = [
+    'village on a hill', 
+    'seaside village', 
+    'grand city', 
+    'small town', 
+    'small village', 
+    'small city', 
+    'coastal city', 
+    'forest', 
+    'mountain', 
+    'desert', 
+    'swamp', 
+    'cave', 
+    'ruin', 
+    'ruins']

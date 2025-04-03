@@ -1,5 +1,6 @@
 # COLORS
 CREAM = "\033[0;91m"
+GRAY = "\033[0;30m"
 RED = "\033[0;31m"
 YELLOW = "\033[0;93m"
 LIGHT_GREEN = "\033[0;92m"
@@ -17,4 +18,4 @@ BLINK = "\033[5m"
 NEGATIVE = "\033[7m"
 CROSSED = "\033[9m"
 # DEFAULT
-WHITE = "\033[0m"
+DEFAULT = "\033[0m"
