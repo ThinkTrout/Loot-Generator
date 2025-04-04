@@ -266,6 +266,11 @@ def loreGeneration():
     
     print(f"\n{ITALIC}{correct_text(loreGen)}.{DEFAULT}")
 
+def valueGeneration():
+    global value, valueDisplay
+    value = random.randint(1, 50)
+    valueDisplay = f"Value: {YELLOW}{value} Gold{DEFAULT}"
+
 # -------------------------------
 
 def sysMessage(color,text,time=None):
@@ -384,8 +389,11 @@ def pastList():
 def generate():
     system('clear')
     sleep(0.1)
-    random.choice(genTypes)()
+    random.choice(genTypes)()  # Generate the item
+    valueGeneration()  # Generate the value
+    pastGen[-1]["details"] += f"\n{valueDisplay}"
     loreGeneration()
+    print(f'\n{valueDisplay}')
 
 displayEnter = '\nPress [ENTER] to generate loot.'
 

@@ -71,6 +71,7 @@ weaponMaterial = [
     "Ebony",
     "Stone",
     "Glass",
+    "Obsidian",
 ]
 
 # Rarity color, minimum damage, maximum damage, probability threshold, stat bonus
