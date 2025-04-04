@@ -1,5 +1,9 @@
 ## Loot Generator // CHANGELOG
 
+**v1.6.0 MAJOR UPDATE**
+- Added lore generation
+- Implemented smoother keyboard input control
+
 **v1.5.5**
 - Added better prefix generation and more prefix possibilities
 
